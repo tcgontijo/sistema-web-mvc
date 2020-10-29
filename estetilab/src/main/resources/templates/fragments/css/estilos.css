@@ -1,0 +1,80 @@
+.btn-rosa {
+    color: #fff;
+    background-color: #FCA9FF;
+    border-color: #FCA9FF;
+}
+
+.rosa:hover {
+    color: #fff;
+    background-color: #FCA9FF;
+    border-color: #F98CFF;
+}
+
+.rosa:focus,
+.rosa.focus {
+    color: #fff;
+    background-color: #FCA9FF;
+    border-color: #F98CFF;
+    box-shadow: 0 0 0 0.2rem rgba(249, 140, 255, 1);
+}
+
+.rosa.disabled,
+.rosa:disabled {
+    color: #fff;
+    background-color: #FCA9FF;
+    border-color: #FCA9FF;
+}
+
+.rosa:not(:disabled):not(.disabled):active,
+.rosa:not(:disabled):not(.disabled).active,
+.show>.rosa.dropdown-toggle {
+    color: #fff;
+    background-color: #F98CFF;
+    border-color: #FCA9FF;
+}
+
+.rosa:not(:disabled):not(.disabled):active:focus,
+.rosa:not(:disabled):not(.disabled).active:focus,
+.show>.rosa.dropdown-toggle:focus {
+    box-shadow: 0 0 0 0.2rem rgba(249, 140, 255, 1);
+}
+h1{
+    font-size: 80px;
+    color:  #363435;
+    margin-left: 40px;
+}
+h1::first-letter{
+    font-size: 150px;
+    font-weight: bold;
+    text-shadow: #575668 3px 3px 2px;
+    font-family: 'Noto Serif', serif;
+}
+body{
+	 background-color: #fbdad0;
+}
+.logo {
+    width: 200px;
+    position:relative;
+	left:0%;
+	top:50%;
+    padding: 0px;
+}
+
+a:link, a:visited { 
+    list-style: none;
+    text-decoration: none;
+    font-size: 22px;
+    color: #575668;
+    padding: 40px, 0px;
+    margin: 0px;
+    text-shadow: #575668 1px 1px 2px; 
+}
+
+a:hover {
+    background-color: #fc7a7a;
+    color: #575668;
+    text-shadow: #575668 1px 1px 2px;    
+}
+.letra{
+	font-family: 'Noto Serif', serif;
+}
