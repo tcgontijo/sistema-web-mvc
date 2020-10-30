@@ -78,3 +78,23 @@ a:hover {
 .letra{
 	font-family: 'Noto Serif', serif;
 }
+
+/* footer */
+
+footer p {
+    color: white;
+    background-color: #363435;
+}
+
+li {
+    list-style: none;
+    text-decoration: none;
+    font-size: 16px;
+    color: white;
+    padding: 10px 10px;
+    margin: 0px;
+}
+
+footer {
+    background-color: #363435;
+}
