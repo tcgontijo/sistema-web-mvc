@@ -17,11 +17,11 @@
 
 	<!-- Início do conteúdo da página -->
 	
-	<nav th:insert="fragments/navbar :: navbar"></nav>
+	<nav th:replace="fragments/navbar :: navbar"></nav>
 
-	<main th:insert="this :: conteudo"></main>
+	<main th:replace="this :: conteudo"></main>
 
-	<footer th:insert="fragments/footer :: footer"></footer>
+	<footer th:replace="fragments/footer :: footer"></footer>
 
 	<!-- Fim do conteúdo da página -->
 

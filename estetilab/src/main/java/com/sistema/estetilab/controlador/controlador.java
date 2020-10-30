@@ -10,5 +10,10 @@ public class controlador {
 	public String home() {
 		return "index";
 	}
+	
+	@RequestMapping("/procedimentos")
+	public String procedimentos() {
+		return "procedimentos";
+	}
 
 }
