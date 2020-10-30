@@ -6,9 +6,9 @@ import org.springframework.web.bind.annotation.RequestMapping;
 @Controller
 public class controlador {
 
-	//@RequestMapping("/")
-	//public String pag1() {
-	//	return "pagina1";
-	//}
+	@RequestMapping("/")
+	public String home() {
+		return "index";
+	}
 
 }

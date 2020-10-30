@@ -8,20 +8,20 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://docs.google.com/uc?id=1YHpawIm7WQlHXRhMzQ65cRhEXg-Q9GRa">
+    <link rel="stylesheet" href="css/estilos.css">
+    <link rel="stylesheet" href="imagens/logoEstetilLab.jpg alt=">
     <link href="https://fonts.googleapis.com/css2?family=Noto+Serif:wght@700&display=swap" rel="stylesheet">
     <title>EstetiLab - MVC</title>
 </head>
 
 <body>
-<div th:fragment="navbar">
-    <nav>
+    <nav th:fragment="navbar">
         <div class="navbar">
             <div>
                 <h1>Esteti<span class="letra">L</span>ab</h1>
             </div>
             <div>
-                <img class="logo" src="https://docs.google.com/uc?id=1iS38P_pYtBvChx2QYeG0wAz40Owc0IgB" alt="">
+                <img class="logo" src="imagens/logoEstetilLab.jpg" alt="">
             </div>
         </div>
         <div class="navbar navbar-expand-md navbar-dark bg-dark">
@@ -31,34 +31,33 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav mr-auto">
                     <li class="nav-item">
-                        <a class="nav-link btn rosa btn-lg text-white m-0" href="">Cadastro</a>
+                        <a class="nav-link btn rosa btn-lg text-white m-0" href="/">Cadastro</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link btn rosa btn-lg text-white m-0" href="">Clientes</a>
+                        <a class="nav-link btn rosa btn-lg text-white m-0" href="/pagina2">Clientes</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link btn rosa btn-lg text-white m-0" href="">Agendamentos</a>
+                        <a class="nav-link btn rosa btn-lg text-white m-0" href="/pagina3">Agendamentos</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link btn rosa btn-lg text-white m-0" href="">Prontuário</a>
+                        <a class="nav-link btn rosa btn-lg text-white m-0" href="/pagina4">Prontuário</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link btn rosa btn-lg text-white m-0" href="">Atendimento</a>
+                        <a class="nav-link btn rosa btn-lg text-white m-0" href="/pagina4">Atendimento</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link btn rosa btn-lg text-white m-0" href="">Procedimentos</a>
+                        <a class="nav-link btn rosa btn-lg text-white m-0" href="/pagina4">Procedimentos</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link btn rosa btn-lg text-white m-0" href="">Produtos Home Care</a>
+                        <a class="nav-link btn rosa btn-lg text-white m-0" href="/pagina4">Produtos Home Care</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link btn rosa btn-lg text-white m-0" href="">Relatórios</a>
+                        <a class="nav-link btn rosa btn-lg text-white m-0" href="/pagina4">Relatórios</a>
                     </li>
                 </ul>
             </div>
         </div>
     </nav>
-    </div>
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
