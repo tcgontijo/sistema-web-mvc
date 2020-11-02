@@ -1,15 +1,48 @@
 <!DOCTYPE html>
 <html xmlns:th="http://www.thymeleaf.org" th:include="fragments/modelo :: modelo">
+
 <body>
     <main th:fragment="conteudo">
-    <form>
-        <label for="nomeProced">Nome do Procedimento: </label>
-        <input type="text" id="nomeProced">
-        <label for="duracao">DuraÃ§Ã£o MÃ©dia: </label>
-        <input type="number" id="duracao">
-        <label for="venda">Valor de Venda: </label>
-        <input type="number" id="venda">
-    </form>
-</main>
+        <h2 class="text-center my-5">Edição de Procedimento</h2>
+        <h2 class="text-center my-5">Adição de Procedimento</h2>
+        <form>
+            <div class="row">
+                <div class="col-8"></div>
+                <div class="container-fluid my-2 p-2 col-4 text-left">
+                    <input type="button" value="Excluir Procedimento" class="mx-3">
+                </div>
+            </div>
+
+            <div class="container-fluid my-2 row p-2">
+                <div class="col-2 text-right">
+                    <label for="nomeProced">Nome do Procedimento: </label>
+                </div>
+                <div class="col-8">
+                    <input type="text" id="nomeProced" class="w-100">
+                </div>
+            </div>
+
+            <div class="container-fluid my-2 row p-2">
+                <div class="col-2 text-right">
+                    <label for="duracao">Duração Média: </label>
+                </div>
+                <div class="col-3">
+                    <input type="number" id="duracao" class="w-100">
+                </div>
+                <div class="col-2 text-right">
+                    <label for="valorVenda">Valor de venda: </label>
+                </div>
+                <div class="col-3">
+                    <input type="number" id="valorVenda" class="w-100">
+                </div>
+            </div>
+
+                <div class="container-fluid my-4 p-2 text-center">
+                    <input type="button" value="Confirmar" class="mx-3">
+                    <input type="reset" value="Limpar" class="mx-3">
+                </div>
+        </form>
+    </main>
 </body>
+
 </html>
