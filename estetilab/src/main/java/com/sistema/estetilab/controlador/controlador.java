@@ -17,19 +17,8 @@ public class controlador {
 	public String read() {
 		return "CRUD-procedimentos/read";
 	}
-	@RequestMapping("/procedimentos/editar")
-	public String update() {
-		return "CRUD-procedimentos/update";
+	@RequestMapping("/procedimentos/edit")
+	public String createupdate() {
+		return "CRUD-procedimentos/createupdate";
 	}
-	@RequestMapping("/procedimentos/adicionar")
-	public String create() {
-		return "CRUD-procedimentos/create";
-	}
-	@RequestMapping("/procedimentos/deletar")
-	public String delete() {
-		return "CRUD-procedimentos/delete";
-	}
-	
-
-
 }

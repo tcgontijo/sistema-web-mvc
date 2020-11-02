@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org" th:include="fragments/modelo :: modelo">
+<body>
+    <main th:fragment="conteudo">
+    <form>
+        <label for="nomeProced">Nome do Procedimento: </label>
+        <input type="text" id="nomeProced">
+        <label for="duracao">Duração Média: </label>
+        <input type="number" id="duracao">
+        <label for="venda">Valor de Venda: </label>
+        <input type="number" id="venda">
+    </form>
+</main>
+</body>
+</html>
