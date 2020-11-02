@@ -14,45 +14,58 @@
 </head>
 
 <body>
-    <nav th:fragment="navbar">
+        <nav th:fragment="navbar">
         <div class="navbar">
             <div>
-                <a href="/"><h1>Esteti<span class="letra">L</span>ab</h1>
-            </a></div>
+                <h1>Esteti<span class="letra">L</span>ab</h1>
+            </div>
             <div>
-                <img class="logo" src="https://docs.google.com/uc?id=1iS38P_pYtBvChx2QYeG0wAz40Owc0IgB" alt="">
+                <img class="logo" src="/navbar/imagens/logoEstetilLab.jpg" alt="">
             </div>
         </div>
         <div class="navbar navbar-expand-md navbar-dark bg-dark">
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-			<span class="navbar-toggler-icon"></span>
-		</button>
+                <span class="navbar-toggler-icon"></span>
+            </button>
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav mr-auto">
                     <li class="nav-item">
-                        <a class="nav-link btn rosa btn-lg text-white m-0" href="">Cadastro</a>
+                        <a class="nav-link btn rosa btn-lg text-white m-0" href="/">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link btn rosa btn-lg text-white m-0" href="">Clientes</a>
+                        <a class="nav-link btn rosa btn-lg text-white m-0" href="/pagina1">Cadastro</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link btn rosa btn-lg text-white m-0" href="">Agendamentos</a>
+                        <a class="nav-link btn rosa btn-lg text-white m-0" href="/pagina2">Clientes</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link btn rosa btn-lg text-white m-0" href="">Prontuário</a>
+                        <a class="nav-link btn rosa btn-lg text-white m-0" href="/pagina3">Agendamentos</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link btn rosa btn-lg text-white m-0" href="">Atendimento</a>
+                        <a class="nav-link btn rosa btn-lg text-white m-0" href="/pagina4">Prontuário</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link btn rosa btn-lg text-white m-0" href="/procedimentos">Procedimentos</a>
+                        <a class="nav-link btn rosa btn-lg text-white m-0" href="/pagina4">Atendimento</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link btn rosa btn-lg text-white m-0" href="">Produtos Home Care</a>
+                        <a class="nav-link btn rosa btn-lg text-white m-0" href="/pagina4">Procedimentos</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link btn rosa btn-lg text-white m-0" href="">Relatórios</a>
+                        <a class="nav-link btn rosa btn-lg text-white m-0" href="/pagina4">Produtos Home Care</a>
                     </li>
+                    <li class="dropdown nav-link navbar-nav ">
+                        <button class="dropdown-toggle mr-auto nav-item dropdown-item nav-item nav-link btn rosa btn-lg text-white m-0" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Relatórios
+                        </button>
+                        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                            <a class="dropdown-item" href="#">Clientes</a>
+                            <a class="dropdown-item" href="#">Estoque Home Care</a>
+                            <a class="dropdown-item" href="#">Atendimentos</a>
+                            <a class="dropdown-item" href="#">Procedimentos </a>
+                            <a class="dropdown-item" href="#">Auditoria</a>
+                        </div>
+                    </li>
+
                 </ul>
             </div>
         </div>
