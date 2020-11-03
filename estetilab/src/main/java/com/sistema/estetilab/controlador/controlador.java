@@ -22,4 +22,15 @@ public class controlador {
 	public String createupdate() {
 		return "CRUD-procedimentos/createupdate";
 	}
+	/**************************
+	 ** CRUD - CADASTRAR CLIENTES **
+	 **************************/
+	@RequestMapping("/cadastrarcliente")
+	public String add() {
+		return "CRUD-cadastrarCliente/add";
+	}
+	@RequestMapping("/editarcliente")
+	public String edit() {
+		return "CRUD-cadastrarCliente/edit";
+	}
 }
