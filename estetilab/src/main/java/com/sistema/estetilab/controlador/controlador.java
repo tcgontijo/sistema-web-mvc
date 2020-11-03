@@ -11,8 +11,9 @@ public class controlador {
 		return "index";
 	}
 	
-	//CRUD - PROCEDIMENTOS
-	
+	/**************************
+	 ** CRUD - PROCEDIMENTOS **
+	 **************************/
 	@RequestMapping("/procedimentos")
 	public String read() {
 		return "CRUD-procedimentos/read";
