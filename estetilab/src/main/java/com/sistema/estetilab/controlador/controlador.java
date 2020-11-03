@@ -27,10 +27,10 @@ public class controlador {
 	 **************************/
 	@RequestMapping("/cadastrarcliente")
 	public String add() {
-		return "CRUD-cadastrarCliente/add";
+		return "CRUD-cadastrarClientes/add";
 	}
 	@RequestMapping("/editarcliente")
 	public String edit() {
-		return "CRUD-cadastrarCliente/edit";
+		return "CRUD-cadastrarClientes/edit";
 	}
 }
