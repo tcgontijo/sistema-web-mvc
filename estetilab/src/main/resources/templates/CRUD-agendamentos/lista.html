@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org"
+	th:include="fragments/modelo :: modelo">
+<body>
+
+	<main th:fragment="conteudo">
+		<meta charset="utf-8">
+		<ul class="text-center">
+			<li class="container btn btn-secondary m-2" data-toggle="collapse"
+				href="#agendamento1" role="button" aria-expanded="false"
+				aria-controls="agendamento1"><span>Segunda Feira</span>,<span>10:00</span></li>
+			<div class="collapse" id="agendamento1">
+				<div class="card card-body w-50 m-auto">
+					<form class="text-left">
+						<label>Cliente: </label>
+						<input type="text" value="João" disabled>
+						<label>Procedimento: </label>
+						<input type="text" value="Limpeza de Pele" disabled>
+						<input type="button" value="Editar" onclick="window.location.href='/agendaedit'">
+					</form>
+				</div>
+			</div>
+
+			<li class="container btn btn-secondary m-2" data-toggle="collapse"
+				href="#agendamento2" role="button" aria-expanded="false"
+				aria-controls="agendamento2"><span>Segunda Feira</span>,<span>14:00</span></li>
+			<div class="collapse" id="agendamento2">
+				<div class="card card-body w-50 m-auto">
+					<form class="text-left">
+						<label>Cliente: </label>
+						<input type="text" value="Mônica" disabled>
+						<label>Procedimento: </label>
+						<input type="text" value="Microagulhamento" disabled>
+						<input type="button" value="Editar" onclick="window.location.href='/agendaedit'">
+					</form>
+				</div>
+			</div>
+			
+						<li class="container btn btn-secondary m-2" data-toggle="collapse"
+				href="#agendamento3" role="button" aria-expanded="false"
+				aria-controls="agendamento3"><span>Terça Feira</span>,<span>08:00</span></li>
+			<div class="collapse" id="agendamento3">
+				<div class="card card-body w-50 m-auto">
+					<form class="text-left">
+						<label>Cliente: </label>
+						<input type="text" value="Maria" disabled>
+						<label>Procedimento: </label>
+						<input type="text" value="Drenagem linfárica" disabled>
+						<input type="button" value="Editar" onclick="window.location.href='/agendaedit'">
+					</form>
+				</div>
+			</div>
+			
+						<li class="container btn btn-secondary m-2" data-toggle="collapse"
+				href="#agendamento4" role="button" aria-expanded="false"
+				aria-controls="agendamento4"><span>Quarta Feira</span>,<span>12:00</span></li>
+			<div class="collapse" id="agendamento4">
+				<div class="card card-body w-50 m-auto">
+					<form class="text-left">
+						<label>Cliente: </label>
+						<input type="text" value="Roberta" disabled>
+						<label>Procedimento: </label>
+						<input type="text" value="Peeling" disabled>
+						<input type="button" value="Editar" onclick="window.location.href='/agendaedit'">
+					</form>
+				</div>
+			</div>
+			
+						<li class="container btn btn-secondary m-2" data-toggle="collapse"
+				href="#agendamento5" role="button" aria-expanded="false"
+				aria-controls="agendamento5"><span>Quinta Feira</span>,<span>18:00</span></li>
+			<div class="collapse" id="agendamento5">
+				<div class="card card-body w-50 m-auto">
+					<form class="text-left">
+						<label>Cliente: </label>
+						<input type="text" value="Tereza" disabled>
+						<label>Procedimento: </label>
+						<input type="text" value="Limpeza de Pele" disabled>
+						<input type="button" value="Editar" onclick="window.location.href='/agendaedit'">
+					</form>
+				</div>
+			</div>
+			
+		</ul>
+
+	</main>
+</body>
+</html>
