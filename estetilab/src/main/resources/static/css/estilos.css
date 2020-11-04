@@ -21,7 +21,7 @@
 
 .btn-rosa {
     color: #fff;
-    background-color: #FCA9FF;
+    background-color: #838383;
     border-color: #FCA9FF;
 }
 
@@ -161,9 +161,10 @@ nav a:hover {
 
 
 /* footer */
+
 footer {
-	background-color: #363435;
-	padding-top: 15px;
+    background-color: #363435;
+    padding-top: 15px;
 }
 
 .footer p {
@@ -182,6 +183,7 @@ footer {
     font-size: 10px;
 }
 
+
 /*crd cadastro de clientes*/
 
 .h1cadCliente {
@@ -192,7 +194,7 @@ footer {
     text-align: center;
 }
 
-.formulárioAddCliente {
+form {
     font-family: 'Noto Serif', serif;
     border: #d1d1d1 solid 1px;
     padding: 20px;
@@ -200,8 +202,11 @@ footer {
     background-color: #575668;
 }
 
-.espacoBotao {
+button {
     margin: 15px;
+    color: #fff;
+    background-color: #838383;
+    border-color: #FCA9FF;
 }
 
 .botaoesquerdo {
