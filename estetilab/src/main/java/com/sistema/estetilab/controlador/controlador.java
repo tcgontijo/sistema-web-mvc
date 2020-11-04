@@ -14,17 +14,18 @@ public class controlador {
 	/**************************
 	 ** CRUD - PROCEDIMENTOS **
 	 **************************/
-	@RequestMapping("/procedimentos")
+	@RequestMapping("/procedview")
 	public String read() {
 		return "CRUD-procedimentos/read";
 	}
-	@RequestMapping("/procedimentos/edit")
+	@RequestMapping("/procededit")
 	public String createupdate() {
 		return "CRUD-procedimentos/createupdate";
 	}
-	/**************************
-	 ** CRUD - CADASTRAR CLIENTES **
-	 **************************/
+	
+	/*********************
+	 ** CRUD - CLIENTES **
+	 *********************/
 	@RequestMapping("/cadastrarcliente")
 	public String add() {
 		return "CRUD-cadastrarClientes/add";
@@ -32,5 +33,17 @@ public class controlador {
 	@RequestMapping("/editarcliente")
 	public String edit() {
 		return "CRUD-cadastrarClientes/edit";
+	}
+	
+	/*************************
+	 ** CRUD - AGENDAMENTOS **
+	 *************************/
+	@RequestMapping("/agenda")
+	public String agenda() {
+		return "CRUD-agendamentos/lista";
+	}
+	@RequestMapping("/agendaedit")
+	public String agendaedit() {
+		return "CRUD-agendamentos/book";
 	}
 }

@@ -161,6 +161,10 @@ nav a:hover {
 
 
 /* footer */
+footer {
+	background-color: #363435;
+	padding-top: 15px;
+}
 
 .footer p {
     color: white;
@@ -177,23 +181,6 @@ nav a:hover {
     font-family: 'Noto Serif', serif;
     font-size: 10px;
 }
-
-.footer {
-    background-color: #363435;
-    position: relative;
-    margin-left: auto;
-    margin-right: auto;
-    display: -ms-flexbox;
-    display: flex;
-    -ms-flex-wrap: wrap;
-    flex-wrap: wrap;
-    -ms-flex-align: center;
-    align-items: center;
-    -ms-flex-pack: justify;
-    justify-content: space-between;
-    padding: 15px;
-}
-
 
 /*crd cadastro de clientes*/
 
