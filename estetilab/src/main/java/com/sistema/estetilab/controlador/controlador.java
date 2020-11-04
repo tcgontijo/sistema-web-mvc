@@ -14,11 +14,11 @@ public class controlador {
 	/**************************
 	 ** CRUD - PROCEDIMENTOS **
 	 **************************/
-	@RequestMapping("/procedimentos")
+	@RequestMapping("/procedview")
 	public String read() {
 		return "CRUD-procedimentos/read";
 	}
-	@RequestMapping("/procedimentos/edit")
+	@RequestMapping("/procededit")
 	public String createupdate() {
 		return "CRUD-procedimentos/createupdate";
 	}
