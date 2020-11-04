@@ -162,13 +162,13 @@ nav a:hover {
 
 /* footer */
 
-footer p {
+.footer p {
     color: white;
     background-color: #363435;
     font-size: 10px;
 }
 
-footer li {
+.footer li {
     list-style: none;
     text-decoration: none;
     color: white;

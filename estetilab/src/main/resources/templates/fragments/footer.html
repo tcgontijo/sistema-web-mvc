@@ -1,32 +1,34 @@
 <!DOCTYPE html>
 <html xmlns: th="http://www.thymeleaf.org">
 <head>
-<meta charset="utf-8">
-<title>Insert title here</title>
-<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
-<link rel="stylesheet" href="https://docs.google.com/uc?id=1YHpawIm7WQlHXRhMzQ65cRhEXg-Q9GRa">
-</head>
 <body>
-<div th:fragment="rodape">
-        <footer class="footer modal-footer">
-            <div class="footer">
-                <div class="col-md-4">
-                    <p>Desenvolvido por:</p>
-                    <ul>
-                        <li>Gustavo Luiz Dutra Santos</li>
-                        <li>Hugo Moreira Coelho Pacheco</li>
-                        <li>Tulio Cesar Gontijo</li>
-                        <li>Vitor Braga Ferreira</li>
-                    </ul>
-                </div>
-                <div class="col-md-4">
-                    <p>Â®Todos os direitos reservados</p>
-                </div>
-                <div class="col-md-4">
-                    <p>Tecnologia em Sistemas para Internet - IFTM Campus Uberlandia Centro</p>
-                </div>
-            </div>
-        </footer>
-    </div>
+	<div th:fragment="rodape">
+		<footer class="footer modal-footer">
+			<div class="footer">
+				<div class="row">
+					<div class="col-5 p-0 m-0">
+						<p>Desenvolvido por:</p>
+						<ul>
+							<li>Gustavo Luiz Dutra Santos</li>
+							<li>Hugo Moreira Coelho Pacheco</li>
+							<li>Tulio Cesar Gontijo</li>
+							<li>Vitor Braga Ferreira</li>
+						</ul>
+					</div>
+					<div class="col-4">
+					</div>
+					<div class="col-3 p-0 m-0">
+						<p class="pt-5 pl-2">Tecnologia em Sistemas para Internet - IFTM Campus
+							Uberlandia Centro</p>
+					</div>
+				</div>
+				<div class="row container-fluid">
+					<div class="col-12">
+					<p class="text-center">®Todos os direitos reservados</p>
+					</div>
+				</div>
+			</div>
+		</footer>
+	</div>
 </body>
 </html>
