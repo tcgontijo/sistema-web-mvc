@@ -205,10 +205,18 @@ nav a:hover {
     text-align: center;
 }
 
-.formulário {
+.formulárioAddCliente {
     font-family: 'Noto Serif', serif;
     border: #d1d1d1 solid 1px;
     padding: 20px;
     border-radius: 5px;
     background-color: #575668;
+}
+
+.espacoBotao {
+    margin: 15px;
+}
+
+.botaoesquerdo {
+    margin-left: 20px;
 }

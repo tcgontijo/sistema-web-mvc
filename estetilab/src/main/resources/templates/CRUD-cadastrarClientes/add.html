@@ -1,40 +1,38 @@
 <!DOCTYPE html>
 <html xmlns:th="http://www.thymeleaf.org" th:include="fragments/modelo :: modelo">
+
 <body>
-
+    <meta charset="utf-8">
     <main th:fragment="conteudo">
- <div id="main" class="container">
+        <div id="main" class="container">
             <h1 class="h1cadCliente">Cadastro de Clientes</h1>
-            <form class="formulárioAddClinente">
+            <form class="formulÃ¡rioAddCliente">
+                <div class="form-group">
+                    <div class="form-group">
+                        <label for="nome">Nome completo</label>
+                        <input type="text" class="form-control" id="nome" placeholder="Nome completo">
+                    </div>
+                    <div class="form-group">
+                        <label for="nomeSocial">Nome Social</label>
+                        <input type="text" class="form-control" id="nomeSocial" placeholder="Nome">
+                    </div>
 
-                <div class="form-group">
-                    <label for="nome">Nome completo</label>
-                    <input type="text" class="form-control" id="nome" placeholder="Nome completo">
-                </div>
-                <div class="form-group">
-                    <label for="nomeSocial">Nome Social</label>
-                    <input type="text" class="form-control" id="nomeSocial" placeholder="Nome">
-                </div>
-                <div class="row">
-                    <legend class="col-form-label col-sm-2 pt-0">Genero</legend>
-                    <div class="col-sm-10">
-                        <div class="form-check">
+                    <label for="inputEmail4">Genero</label>
+                    <div class="form-row botaoesquerdo">
+                        <div class="col-md-2 form-check">
                             <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios1" value="opcao1" checked>
-                            <label class="form-check-label" for="gridRadios1">
-                     Masculino
-                    </label>
+                            <label class="form-check-label" for="gridRadios1"> Masculino</label>
                         </div>
-                        <div class="form-check">
+                        <div class="col-md-2 form-check">
                             <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios2" value="opcao2">
-                            <label class="form-check-label" for="gridRadios2">
-                      Feminino
-                    </label>
+                            <label class="form-check-label" for="gridRadios2">Feminino</label>
                         </div>
-                        <div class="form-check">
+                        <div class="col-md-2 form-check">
                             <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios3" value="opcao3">
-                            <label class="form-check-label" for="gridRadios3">
-                      Outro
-                    </label>
+                            <label class="form-check-label" for="genero">Outro</label>
+                        </div>
+                        <div class="col-md-6 form-group">
+                            <input type="text" class="form-row form-control" id="genero" placeholder="Genero">
                         </div>
                     </div>
                 </div>
@@ -45,7 +43,7 @@
                     </div>
                     <div class="form-group col-md-6">
                         <label for="inputPassword4">CPF</label>
-                        <input type="number" class="form-control" id="inputPassword4" placeholder="Apenas dígitos">
+                        <input type="number" class="form-control" id="inputPassword4" placeholder="Apenas dï¿½gitos">
                     </div>
                     <div class="form-group col-md-6">
                         <label for="inputPassword4">Contato</label>
@@ -55,33 +53,66 @@
                         <label for="inputPassword4">Contato</label>
                         <input type="number" class="form-control" id="inputPassword4" placeholder="Fixo">
                     </div>
-                </div>
-                <div class="form-group">
-                    <label for="inputAddress">Endereço</label>
-                    <input type="text" class="form-control" id="inputAddress" placeholder="">
-                </div>
-                <div class="form-row">
-                    <div class="form-group col-md-6">
-                        <label for="inputCity">Cidade</label>
-                        <input type="text" class="form-control" id="inputCity">
-                    </div>
-                    <div class="form-group col-md-4">
-                        <label for="inputEstado">Estado</label>
-                        <select id="inputEstado" class="form-control">
-                  <option selected>Escolher...</option>
-                  <option>...</option>
-                </select>
+
+                    <div class="form-group col-md-10">
+                        <label for="inputAddress">EndereÃ§o</label>
+                        <input type="text" class="form-control" id="inputAddress" placeholder="Avenida/Rua">
                     </div>
                     <div class="form-group col-md-2">
-                        <label for="inputCEP">CEP</label>
-                        <input type="text" class="form-control" id="inputCEP">
+                        <label for="inputAddress">NÃºmero</label>
+                        <input type="number" class="form-control" id="inputAddress" placeholder="">
                     </div>
-                </div>
+                    <div class="form-row">
+                        <div class="form-group col-md-7">
+                            <label for="inputCity">Cidade</label>
+                            <input type="text" class="form-control" id="inputCity">
+                        </div>
+                        <div class="form-group col-md-3">
+                            <label for="inputEstado">Estado</label>
+                            <select id="inputEstado" class="form-control">
+                                <option selected="" value="">Selecione o Estado (UF)</option>
+                                <option value="Acre">Acre-AC</option>
+                                <option value="Alagoas">Alagoas-AL</option>
+                                <option value="Amapï¿½">Amapï¿½-AP</option>
+                                <option value="Amazonas">Amazonas-AM</option>
+                                <option value="Bahia">Bahia-BA</option>
+                                <option value="Cearï¿½">Cearï¿½-CE</option>
+                                <option value="Distrito Federal">Distrito Federal-DF</option>
+                                <option value="Espï¿½rito Santo">Espï¿½rito Santo-ES</option>
+                                <option value="Goiï¿½s">Goiï¿½s-GO</option>
+                                <option value="Maranhï¿½o">Maranhï¿½o-MA</option>
+                                <option value="Mato Grosso">Mato Grosso-MS</option>
+                                <option value="Mato Grosso do Sul">Mato Grosso do Sul-MT</option>
+                                <option value="Minas Gerais">Minas Gerais-MG</option>
+                                <option value="Parï¿½">Parï¿½-PA</option>
+                                <option value="Paraï¿½ba">Paraï¿½ba-PB</option>
+                                <option value="Paranï¿½">Paranï¿½-PR</option>
+                                <option value="Pernambuco">Pernambuco-PB</option>
+                                <option value="Piauï¿½">Piauï¿½-PI</option>
+                                <option value="Rio de Janeiro">Rio de Janeiro-RJ</option>
+                                <option value="Rio Grande do Sul">Rio Grande do Sul-RS</option>
+                                <option value="Rio Grande do Norte">Rio Grande do Norte-RN</option>
+                                <option value="Rondï¿½nia">Rondï¿½nia-RO</option>
+                                <option value="Roraima">Roraima-RR</option>
+                                <option value="Santa Catarina">Santa Catarina-SC</option>
+                                <option value="Sï¿½o Paulo">Sï¿½o Paulo-SP</option>
+                                <option value="Sergipe">Sergipe-SE</option>
+                                <option value="Tocantins">Tocantins-TO</option>
+                                <option>...</option>
+                            </select>
+                        </div>
+                        <div class="form-group col-md-2">
+                            <label for="inputCEP">CEP</label>
+                            <input type="text" class="form-control" id="inputCEP">
+                        </div>
 
-                <button type="submit" class="btn btn-rosa">Salvar</button>
-                <button type="submit" class="btn btn-rosa">Cancelar</button>
+
+                        <button type="submit" class="btn btn-rosa espacoBotao">Salvar</button>
+                        <button type="submit" class="btn btn-rosa espacoBotao">Cancelar</button>
+                    </div>
             </form>
-        </div>
-	</main>
+            </div>
+    </main>
 </body>
+
 </html>
