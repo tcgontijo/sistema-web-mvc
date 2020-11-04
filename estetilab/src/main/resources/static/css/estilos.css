@@ -193,3 +193,22 @@ footer li {
     justify-content: space-between;
     padding: 15px;
 }
+
+
+/*crd cadastro de clientes*/
+
+.h1cadCliente {
+    font-family: 'Noto Serif', serif;
+    font-size: 20px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.formulário {
+    font-family: 'Noto Serif', serif;
+    border: #d1d1d1 solid 1px;
+    padding: 20px;
+    border-radius: 5px;
+    background-color: #575668;
+}

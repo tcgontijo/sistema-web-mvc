@@ -3,8 +3,9 @@
 
 <body>
     <main th:fragment="conteudo">
-        <h2 class="text-center my-5">Edição de Procedimento</h2>
-        <h2 class="text-center my-5">Adição de Procedimento</h2>
+    	<meta charset="utf-8">
+        <h2 class="text-center my-5">EdiÃ§Ã£o de Procedimento</h2>
+        <h2 class="text-center my-5">AdiÃ§Ã£o de Procedimento</h2>
         <form>
             <div class="row">
                 <div class="col-8"></div>
@@ -12,27 +13,29 @@
                     <input type="button" value="Excluir Procedimento" class="mx-3">
                 </div>
             </div>
-
+		
             <div class="container-fluid my-2 row p-2">
+            <div class="col-2"></div>
                 <div class="col-2 text-right">
                     <label for="nomeProced">Nome do Procedimento: </label>
                 </div>
-                <div class="col-8">
+                <div class="col-6">
                     <input type="text" id="nomeProced" class="w-100">
                 </div>
             </div>
 
             <div class="container-fluid my-2 row p-2">
+            <div class="col-2"></div>
                 <div class="col-2 text-right">
-                    <label for="duracao">Duração Média: </label>
+                    <label for="duracao">DuraÃ§Ã£o MÃ©dia: </label>
                 </div>
-                <div class="col-3">
+                <div class="col-2">
                     <input type="number" id="duracao" class="w-100">
                 </div>
                 <div class="col-2 text-right">
                     <label for="valorVenda">Valor de venda: </label>
                 </div>
-                <div class="col-3">
+                <div class="col-2">
                     <input type="number" id="valorVenda" class="w-100">
                 </div>
             </div>
@@ -41,6 +44,7 @@
                     <input type="button" value="Confirmar" class="mx-3">
                     <input type="reset" value="Limpar" class="mx-3">
                 </div>
+            
         </form>
     </main>
 </body>
