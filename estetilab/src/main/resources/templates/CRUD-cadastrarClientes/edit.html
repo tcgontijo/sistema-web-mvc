@@ -4,74 +4,41 @@
 <body>
 
     <main th:fragment="conteudo">
-        <div class="container-fluid">
-            <div class="row">
-                <div class="col-9">
-                    <h3 class="m-3">Lista de Clientes</h3>
-                </div>
-                <div class="col-3">
-                    <form action="/editarcliente" class="ml-5">
-                        <input type="submit" value="Editar Cliente" class="m-3 p-2">
-                    </form>
-                </div>
-            </div>
-        </div>
+        <meta charset="utf-8">
+        <div id="main" class="container">
+            <h1 class="h1cadCliente">Lista de Clientes</h1>
+            <table class="table table-dark table-striped">
+                <thead>
+                    <tr>
+                        <th>Nome</th>
+                        <th>Genero</th>
+                        <th>Data de nascimento</th>
+                        <th>Email</th>
+                        <th>CPF</th>
+                        <th>Celular</th>
+                        <th>Fixo</th>
+                        <th>Endereço</th>
+                        <th>Número</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th>Gustavo Luiz Dutra</th>
+                        <th>Masculiono</th>
+                        <th>Data de nascimento</th>
+                        <th>gustavodutrasantos@gmail.com</th>
+                        <th>05095540673</th>
+                        <th>31992471548</th>
+                        <th>Fixo</th>
+                        <th>Rodolfo Paixão</th>
+                        <th>628</th>
+                    </tr>
 
-        <div class="container-fluid">
-            <a href="/editarcliente">
-                <div class="btn row bg-secondary rounded my-2 mx-2 w-100">
-                    <p class="text-white p-2 m-0">Cliente 01</p>
-                </div>
-            </a>
-            <a href="/editarcliente">
-                <div class="btn row bg-secondary rounded my-2 mx-2 w-100">
-                    <p class="text-white p-2 m-0">Cliente 02</p>
-                </div>
-            </a>
-            <a href="/editarcliente">
-                <div class="btn row bg-secondary rounded my-2 mx-2 w-100">
-                    <p class="text-white p-2 m-0">Cliente 03</p>
-                </div>
-            </a>
-            <a href="/editarcliente">
-                <div class="btn row bg-secondary rounded my-2 mx-2 w-100">
-                    <p class="text-white p-2 m-0">Cliente 04</p>
-                </div>
-            </a>
-            <a href="/editarcliente">
-                <div class="btn row bg-secondary rounded my-2 mx-2 w-100">
-                    <p class="text-white p-2 m-0">Cliente 05</p>
-                </div>
-            </a>
-            <a href="/editarcliente">
-                <div class="btn row bg-secondary rounded my-2 mx-2 w-100">
-                    <p class="text-white p-2 m-0">Cliente 06</p>
-                </div>
-            </a>
-            <a href="/editarcliente">
-                <div class="btn row bg-secondary rounded my-2 mx-2 w-100">
-                    <p class="text-white p-2 m-0">Cliente 07</p>
-                </div>
-            </a>
-            <a href="/editarcliente">
-                <div class="btn row bg-secondary rounded my-2 mx-2 w-100">
-                    <p class="text-white p-2 m-0">Cliente 08</p>
-                </div>
-            </a>
-            <a href="/editarcliente">
-                <div class="btn row bg-secondary rounded my-2 mx-2 w-100">
-                    <p class="text-white p-2 m-0">Cliente 09</p>
-                </div>
-            </a>
-            <a href="/editarcliente">
-                <div class="btn row bg-secondary rounded my-2 mx-2 w-100">
-                    <p class="text-white p-2 m-0">Cliente 10</p>
-                </div>
-            </a>
+                </tbody>
+            </table>
+            <button type="submit" class="btn btn-rosa">Salvar alterações</button>
+            <button type="submit" class="btn btn-rosa">Excluir</button>
         </div>
-        <button type="submit" class="btn btn-rosa">Salvar altera��es</button>
-        <button type="submit" class="btn btn-rosa">Excluir</button>
-
     </main>
 </body>
 

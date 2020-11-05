@@ -34,7 +34,10 @@ public class controlador {
 	public String edit() {
 		return "CRUD-cadastrarClientes/edit";
 	}
-	
+	@RequestMapping("/mostrarcliente")
+	public String view() {
+		return "CRUD-cadastrarClientes/listagemClientes";
+	}
 	/*************************
 	 ** CRUD - AGENDAMENTOS **
 	 *************************/
