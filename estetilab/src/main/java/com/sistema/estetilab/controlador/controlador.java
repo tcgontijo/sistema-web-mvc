@@ -16,11 +16,15 @@ public class controlador {
 	 **************************/
 	@RequestMapping("/procedview")
 	public String read() {
-		return "CRUD-procedimentos/read";
+		return "CRUD-procedimentos/readproced";
 	}
 	@RequestMapping("/procededit")
 	public String createupdate() {
-		return "CRUD-procedimentos/createupdate";
+		return "CRUD-procedimentos/uptproced";
+	}
+	@RequestMapping("/procedadd")
+	public String create_proced() {
+		return "CRUD-procedimentos/crtproced";
 	}
 	
 	/*********************

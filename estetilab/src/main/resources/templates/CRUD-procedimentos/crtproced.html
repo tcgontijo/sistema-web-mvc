@@ -2,19 +2,12 @@
 <html xmlns:th="http://www.thymeleaf.org" th:include="fragments/modelo :: modelo">
 <body>
 
-	<main th:fragment="conteudo">
-		<meta charset="utf-8">
-		<h2 class="text-center my-5">Edição de Procedimento</h2>
-		<h2 class="text-center my-5">Adição de Procedimento</h2>
-		<form>
-			<div class="row">
-				<div class="col-8"></div>
-				<div class="container-fluid my-2 p-2 col-4 text-left">
-					<input type="button" value="Excluir Procedimento" class="mx-3">
-				</div>
-			</div>
+<main th:fragment="conteudo">
+	<meta charset="utf-8">
+	<form class="p-2 my-2 mx-auto bg-secondary text-white rounded w-75">
+		<h2 class="text-center my-2">Cadastrar Procedimento</h2>
 
-			<div class="container-fluid my-2 row p-2">
+		<div class="container-fluid my-2 row p-2">
 				<div class="col-2"></div>
 				<div class="col-2 text-right">
 					<label for="nomeProced">Nome do Procedimento: </label>
@@ -24,7 +17,7 @@
 				</div>
 			</div>
 
-			<div class="container-fluid my-2 row p-2">
+		<div class="container-fluid my-2 row p-2">
 				<div class="col-2"></div>
 				<div class="col-2 text-right">
 					<label for="duracao">Duração Média: </label>
@@ -40,11 +33,11 @@
 				</div>
 			</div>
 
-			<div class="container-fluid my-4 p-2 text-center">
+		<div class="container-fluid my-4 p-2 text-center">
 				<input type="button" value="Confirmar" class="mx-3">
 				<input type="reset" value="Limpar" class="mx-3">
 			</div>
-		</form>
-	</main>
+	</form>
+</main>
 </body>
 </html>
