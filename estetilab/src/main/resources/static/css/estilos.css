@@ -21,7 +21,7 @@
 
 .btn-rosa {
     color: #fff;
-    background-color: #838383;
+    background-color: #FCA9FF;
     border-color: #FCA9FF;
 }
 
@@ -194,7 +194,7 @@ footer {
     text-align: center;
 }
 
-form {
+.formulárioAddCliente {
     font-family: 'Noto Serif', serif;
     border: #d1d1d1 solid 1px;
     padding: 20px;
@@ -202,13 +202,6 @@ form {
     background-color: #575668;
 }
 
-button {
-    margin: 15px;
-    color: #fff;
-    background-color: #FCA9FF;
-    border-color: #FCA9FF;
-}
-
-.botaoesquerdo {
-    margin-left: 20px;
+.espacoBotao {
+    margin: 12px;
 }
